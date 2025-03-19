@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilAl - Film Seç</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='ticket.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='BilAl.png') }}" alt="BilAl Logo">
+    </header>
+
+    <!-- BİLET GÖRÜNTÜLE BUTONU -->
+    <a href="{{ url_for('goruntule') }}" class="view-ticket-btn">Bilet Görüntüle</a>
+
+    <div class="container">
+        <h1>Film Seç</h1>
+        <form action="/buy" method="post">
+            <select name="film" required>
+                <option value="Film 1">Star Wars</option>
+                <option value="Film 2">Toy Story</option>
+                <option value="Film 3">Kral Şakir</option>
+            </select>
+            <button type="submit">Filmi Seç</button>
+        </form>
+    </div>
+</body>
+</html>

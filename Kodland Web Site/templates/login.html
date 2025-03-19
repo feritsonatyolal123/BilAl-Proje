@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilAl - Giriş</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='auth.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='BilAl.png') }}" alt="BilAl Logo">
+    </header>
+    <div class="container">
+        <h1>Giriş Yap</h1>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Kullanıcı Adı" required>
+            <input type="password" name="password" placeholder="Şifre" required>
+            <button type="submit">Giriş Yap</button>
+        </form>
+        <p>Hesabınız yok mu? <a href="/register">Kayıt Ol</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* ticket.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f7;
+    color: #2c3e50;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    color: #2980b9;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+
+/* Bilet Görüntüleme Butonu */
+.view-ticket-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view-ticket-btn:hover {
+    background-color: #c0392b;
+}

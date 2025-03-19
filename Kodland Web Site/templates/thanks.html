@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teşekkürler</title>
+    <!-- CSS dosyasını dahil ediyoruz -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='thanks.css') }}">
+</head>
+<body>
+    <!-- Resmi ekliyoruz -->
+    <header>
+        <img src="{{ url_for('static', filename='BilAl.png') }}" alt="BilAl Logo">
+    </header>
+
+    <h1>Teşekkürler!</h1>
+    <p>Sinema Salonu: {{ ticket_info.cinema }}</p>
+    <p>Koltuğunuz: {{ ticket_info.seat }}</p>
+    <p>Saat: {{ ticket_info.time }}</p>
+    <p>Bilet Numarası: {{ ticket_info.ticket_number }}</p>
+</body>
+</html>

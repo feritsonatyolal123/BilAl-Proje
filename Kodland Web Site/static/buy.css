@@ -1,0 +1,79 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f7;
+    color: #2c3e50;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Başlık */
+h1, h2 {
+    text-align: center;
+    color: #2980b9;
+}
+
+/* Form Elemanları */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Kredi Kartı Alanlarını Yan Yana Getirme */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+/* Buton Stili */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+
+input#card_number {
+    letter-spacing: 2px;
+    font-family: monospace;
+}
