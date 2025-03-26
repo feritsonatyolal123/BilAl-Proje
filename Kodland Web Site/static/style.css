@@ -1,0 +1,51 @@
+/* Genel Stil - index.html için */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2c3e50;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+

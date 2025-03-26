@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilAl - Hoşgeldiniz</title>
+    <link rel ="website icon" type="png"
+    href="static/BilAl.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='BilAl.png') }}" alt="BilAl Logo">
+    </header>
+    <div class="container">
+        <h1>Hoşgeldiniz!</h1>
+        <p>Giriş yapmak veya yeni bir hesap oluşturmak için aşağıdaki butonları kullanın.</p>
+        <button onclick="location.href='/login'">Giriş Yap</button>
+        <button onclick="location.href='/register'">Kayıt Ol</button>
+    </div>
+</body>
+</html>
